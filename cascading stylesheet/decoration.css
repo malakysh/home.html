@@ -1,0 +1,529 @@
+body{
+    height: 800px;
+    width:1500px;
+     background-color:white;
+     
+}
+/* start header */
+.header{
+    background-color:#000000;
+    height: 90px;
+    opacity:100px;
+   
+    
+    top: 0;
+    right: 0;
+    left:0;
+    bottom:0;
+   
+}
+
+
+.header .logo{
+    color: gray;
+    float: left;
+    text-transform: uppercase;
+    margin-left:15px;
+    text-shadow: 4px -15px 2px silver;
+
+}
+
+.header .logo h1 span{
+  color: gray;
+
+}
+.header form
+{
+    color: silver;
+    float:right;   
+}
+
+ .header .search.search input[type=text]
+{
+    background:silver;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 2px;
+    height:10px;
+    width:150px;
+    
+    
+}
+.header .search form button
+{
+    background:silver;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.navigation {
+background-color: white;
+    height: 40px;
+   
+    
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 0;
+}
+
+.navigation > nav {
+
+
+    text-align: center;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.navigation > nav > ul > li{
+   display: inline;
+    margin-left:10px;
+    padding: 15px;
+}
+ 
+.navigation > nav > ul > li > a{
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+  
+     
+}
+.navigation > nav > ul > li > a:hover{
+    color: silver;
+    text-decoration: underline ;
+    text-decoration-style: solid;
+    text-decoration-color: gray;
+}
+
+
+
+.page 
+{
+
+    background-image:url('../images/car.jpeg');
+    height:1000px;
+    background-color:silver;
+    width:1500px;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.page .description
+{
+padding-top: 200px;
+text-align: center;
+color:#fff;
+
+}
+.page .description h2
+{
+    margin: 0 auto;
+    font-size: 50px;
+    width:600px;
+    border-top: 4px  solid #fff;
+    border-bottom:4px  solid #fff;
+
+    padding: 5px 0;
+}
+
+.for
+{
+    border-width:2px;
+    border-color:gray;
+    margin-top: 20px;
+    border-style: solid;
+     border-height:30px;
+     margin-bottom: 0;
+     padding:20px 0;
+     
+ }
+ 
+ .show 
+{
+
+    height:300px;
+    background-color:silver;
+    width:1300px;
+    margin: 50px;
+margin-left: 100px;
+    
+    
+   
+
+}
+.show .products h2
+{
+padding-top: 200px;
+text-align: center;
+color:#fff;
+ width:600px;
+ font-size: 50px;
+   margin: 50 auto;
+   padding: 90px 40px;
+
+}
+
+
+
+input[type=text], input[type=password] ,input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+button
+{
+    float:right;
+     margin: 8px 0;
+     background-color:silver;
+
+
+
+
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #000000;
+}
+
+/* Center the image and position the close button */
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  color:silver;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  color:gray;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #000000;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid white;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:white;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+
+}
+.imgcontainer {
+  
+  position: relative;
+    
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
+}
+
+img.avatar {
+  width: 300px;
+  border-radius: 50%;
+  margin : 20px 80px ;
+  height:150px;
+
+}
+
+.container {
+  padding: 20px;
+}
+
+.paragraph
+{
+    margin: 30px 40px;
+}
+.paragraph .aboutus
+{
+ margin: 50px 10px 40px 10px;
+    
+}
+
+
+ .info
+{
+    margin: 50px 5px 10px 5px;
+    background-color: silver;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+   }
+.paragraph .wow
+{
+    float:right;
+    margin-left: 100px;
+    padding-top: 30px;
+   border-radius: 1000px;
+
+}
+ 
+
+.footer
+{
+    background-color: #000000;
+    height:300px;
+   margin-top: 50px;
+border-bottom:4px  solid #fff;
+}
+
+ .copyright{
+   
+    padding-top: 100px;
+    text-align: center;
+
+    
+}
+.copyright >a
+{
+    color: silver;
+}
+.footer> ul  {
+
+    color: white;
+    margin-right:60px;
+    list-style:none;
+    text-align: center;
+    
+}
+.footer >  ul > li{
+   display: inline;
+    margin-left:10px;
+}
+
+/* mycars page */
+
+.mycars
+{
+  width:1500px;
+  height:200px;
+  background-color: silver;
+  align-content: center;
+  align-items: center;
+  margin: 30px auto;
+
+  color:#fff;
+  display: flex;
+justify-content: center;
+}
+.mycars .title
+{
+  text-align: center;
+  text-shadow: 4px -15px 2px silver;
+  font-size: x-large;
+  text-decoration-color: white;
+   text-shadow: 4px -15px 3px white;
+   text-decoration: underline;
+
+}
+
+.car .desc1
+{
+  
+padding: right;
+
+ padding: 400px 100px 100px 1000px;
+  
+  margin-left:100px;
+
+ padding: 130px 100px 100px 750px;
+  text-align: left;
+
+}
+
+
+.car2 .desc2
+{
+  padding: left;
+
+  margin-right:100px;
+ padding: 200px 700px 100px 100px;
+ text-align: left;
+
+}
+
+.call
+{
+margin: 80px 400px 50px 300px;
+}
+ 
+/*last pagr*/
+
+.delivery
+{
+   margin: 100px 300px;
+   text-align: center;
+    border-style: dotted;
+   border-width:50px;
+   border-color: silver;
+
+
+}
+.delivery h3, p
+{
+  color:gray;
+}
+
+
+.map
+{
+  margin: 100px 450px;
+  width:500px;
+  height:500px;
+ 
+}
+
+/*profile page */
+.profile
+{
+  margin: 100px 50px;
+    border-style:solid;
+   border-width:1px;
+   border-color: gray;
+     background-color:#E0E0E0;
+     border-radius: 80px;
+
+}
+.profile .profile-user-img  img
+{
+  width:80px;
+  height:80px;
+  
+}
+.name
+{
+  margin-left: 200px;
+  margin-top:-80px;
+  font-weight: bold;
+  color:#000000;  
+  margin-left: 170px;
+}
+ .time
+{
+  color:gray;
+  margin-left: 170px;
+  margin-top:0;
+   margin-bottom: 40px;
+
+}
+.news
+{
+  
+  color:#000000;  
+  font-size: large;
+text-indent: 50px;
+
+}
+
+ 
+.profile  .strange img
+{
+
+  margin:50px 30px;
+ 
+   width:400px;
+
+}
+.profile .likee img
+{
+  width:50px;
+  border-radius: 50px;
+  height:50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.profile .comment .reply 
+{
+  margin: 50px 40px;
+    border-style:solid;
+   border-width:1px;
+   border-color: gray;
+   height:100px;
+   padding-top: 50px;
+   width:600px;
+   border-radius: 20px;
+   background-color:silver;
+   text-align: center;
+   color:#000000;
+
+
+}
+.profile .comment .reply p
+{
+  text-align: center;
+text-indent: 50px;
+font-size: medium;
+
+}
+
+
+
